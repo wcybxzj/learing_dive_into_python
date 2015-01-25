@@ -1,0 +1,19 @@
+第 3 章 内置数据类型
+
+3.1. Dictionary 介绍
+无序,大小写敏感,混用数据类型
+# 删除
+di.del[42]
+# 清空
+di.clear()
+===========================================================
+3.2. List 介绍
+python 中的判断问题:
+0 为 false; 其它所有数值皆为 true。
+空串 ("") 为 false; 其它所有字符串皆为 true。
+空 list ([]) 为 false; 其它所有 list 皆为 true。
+空 tuple (()) 为 false; 其它所有 tuple 皆为 true。
+空 dictionary ({}) 为 false; 其它所有 dictionary 皆为 true。
+可以使用真正的布尔值，它的值或者为 True 或者为 False。
+
+
