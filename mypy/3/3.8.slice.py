@@ -44,5 +44,5 @@ if not "1111111111" in li:
     print '不存在此值'
 
 
-print "----------delete in list---------"
+print "----------remove 没有返回值---------"
 li =['a', 'b', 'new', 'mpilgrim', 'z', 'example', 'new', 'two', 'elements']
