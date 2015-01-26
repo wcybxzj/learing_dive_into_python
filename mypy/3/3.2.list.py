@@ -46,3 +46,24 @@ if not "1111111111" in li:
 
 print "----------remove 没有返回值---------"
 li =['a', 'b', 'new', 'mpilgrim', 'z', 'example', 'new', 'two', 'elements']
+li.remove('z')
+print li
+
+try:
+    li.remove('c')
+except ValueError:
+    print '删除一个不存在的数在list中'
+
+li.pop()
+print li
+
+print "------------使用 list 的运算符---------"
+li = ['a', 'b', 'mpilgrim']
+li = li+['example', 'new']
+print li
+
+li += ['two']
+print li
+
+li = [1, 2] * 3
+print li
