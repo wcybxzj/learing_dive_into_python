@@ -17,4 +17,4 @@ python 中的判断问题:
 空 dictionary ({}) 为 false; 其它所有 dictionary 皆为 true。
 可以使用真正的布尔值，它的值或者为 True 或者为 False。
 
-
+0、''、[]、()、{}、None 在布尔环境中为假；其它任何东西都为真
