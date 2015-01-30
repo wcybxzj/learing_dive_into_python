@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 import os, sys
 
-
 class FileInfo(object):
     """docstring for FileInfo"""
     def __init__(self, arg):
