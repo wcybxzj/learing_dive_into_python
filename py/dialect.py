@@ -16,13 +16,13 @@ from BaseHTMLProcessor import BaseHTMLProcessor
 
 class Dialectizer(BaseHTMLProcessor):
 	subs = ()
-	
+
 	def reset(self):
 		# extend (called from __init__ in ancestor)
 		# Reset all data attributes
 		self.verbatim = 0
 		BaseHTMLProcessor.reset(self)
-		
+
 	def start_pre(self, attrs):
 		# called for every <pre> tag in HTML source
 		# Increment verbatim mode count, then handle tag like normal
@@ -161,6 +161,7 @@ def test(url):
 		fsock.close()
 		import webbrowser
 		webbrowser.open_new(outfile)
-	
+
 if __name__ == "__main__":
-	test("http://diveintopython.org/odbchelper_list.html")
+	#test("http://diveintopython.org/odbchelper_list.html")
+	test("http://www.baidu.com")
