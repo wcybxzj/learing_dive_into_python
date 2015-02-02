@@ -75,3 +75,30 @@ def fromRoman(s):
 			result += integer
 			index += len(numeral)
 	return result
+
+
+knownValues = ( (1226, 'MCCXXVI'),
+                (1301, 'MCCCI'),
+                (1485, 'MCDLXXXV'),
+                (1509, 'MDIX'),
+                (1607, 'MDCVII'),
+                (1754, 'MDCCLIV'),
+                (1832, 'MDCCCXXXII'),
+                (1993, 'MCMXCIII'),
+                (2074, 'MMLXXIV'),
+                (2152, 'MMCLII'),
+                (2212, 'MMCCXII'),
+                (2343, 'MMCCCXLIII'),
+                (2499, 'MMCDXCIX'),
+                (2574, 'MMDLXXIV'),
+                (2646, 'MMDCXLVI'),
+                (2723, 'MMDCCXXIII'),
+                (2892, 'MMDCCCXCII'),
+                (2975, 'MMCMLXXV'),
+                (3051, 'MMMLI') )
+
+# def work():
+#     for
+#
+# if __name__ == "__main__":
+# 	work()
