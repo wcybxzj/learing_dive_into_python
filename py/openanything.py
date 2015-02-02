@@ -11,7 +11,7 @@ __date__ = '$Date: 2004/04/16 21:16:24 $'
 __copyright__ = 'Copyright (c) 2004 Mark Pilgrim'
 __license__ = 'Python'
 
-import urllib2, urlparse, gzip
+import urllib2, urlparse, gzip, sys
 from StringIO import StringIO
 
 USER_AGENT = 'OpenAnything/%s +http://diveintopython.org/http_web_services/' % __version__
