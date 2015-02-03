@@ -15,6 +15,7 @@ import string, re
 
 allChar = string.uppercase + string.lowercase
 charToSoundex = string.maketrans(allChar, "91239129922455912623919292" * 2)
+print charToSoundex
 
 def soundex(source):
     "convert string to Soundex equivalent"
