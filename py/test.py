@@ -1,4 +1,4 @@
 __author__ = 'wcybxzj'
 
 import os
-print os.listdir('../ ')
+print os.listdir('../')
