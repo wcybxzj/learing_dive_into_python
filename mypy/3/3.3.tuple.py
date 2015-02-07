@@ -9,6 +9,8 @@ try:
 except AttributeError:
     print 'tuple can not append'
 
+print 'test after error'
+
 #2.typle change to list
 t_list = list(t)
 t_list.append("1111")
